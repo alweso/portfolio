@@ -1,0 +1,6 @@
+/* ------------ Template specific styles ----------------*/
+
+
+body {background: url(../img/aurora.jpg) no-repeat;}
+.background-light {background:rgba(27, 79, 78, 0.66);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}
+.background-dark {background: rgba(22, 43, 55, 0.7);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}

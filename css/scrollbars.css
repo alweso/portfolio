@@ -1,0 +1,67 @@
+#more-info #background::-webkit-scrollbar-track  {background: #efefef;}
+.version-1 .scrollable-menu::-webkit-scrollbar-thumb, .version-1 #more-info #background::-webkit-scrollbar-thumb {background: #3b94ae;}
+
+.version-2 .scrollable-menu::-webkit-scrollbar-thumb, .version-2 #more-info #background::-webkit-scrollbar-thumb {background: #578572;}
+
+.version-3 .scrollable-menu::-webkit-scrollbar-thumb, .version-3 #more-info #background::-webkit-scrollbar-thumb {background: #6dac4d;}
+
+.version-4 .scrollable-menu::-webkit-scrollbar-thumb, .version-4 #more-info #background::-webkit-scrollbar-thumb {background: #36c388;}
+
+.version-5 .scrollable-menu::-webkit-scrollbar-thumb, .version-5 #more-info #background::-webkit-scrollbar-thumb {background: #86a65b;}
+
+.version-6 .scrollable-menu::-webkit-scrollbar-thumb, .version-6 #more-info #background::-webkit-scrollbar-thumb {background: #279e72;}
+
+.version-7 .scrollable-menu::-webkit-scrollbar-thumb, .version-7 #more-info #background::-webkit-scrollbar-thumb {background: #279e72;}
+
+.version-8 .scrollable-menu::-webkit-scrollbar-thumb, .version-8 #more-info #background::-webkit-scrollbar-thumb {background: #279e72;}
+
+.version-9 .scrollable-menu::-webkit-scrollbar-thumb, .version-9 #more-info #background::-webkit-scrollbar-thumb {background: #279e72;}
+
+.version-10 .scrollable-menu::-webkit-scrollbar-thumb, .version-10 #more-info #background::-webkit-scrollbar-thumb {background: #279e7d;}
+
+.version-101 .scrollable-menu::-webkit-scrollbar-thumb, .version-101 #more-info #background::-webkit-scrollbar-thumb {background: #e060a7;}
+.version-102 .scrollable-menu::-webkit-scrollbar-thumb, .version-102 #more-info #background::-webkit-scrollbar-thumb {background: #c454cb;}
+.version-103 .scrollable-menu::-webkit-scrollbar-thumb, .version-103 #more-info #background::-webkit-scrollbar-thumb {background: #9254cb;}
+.version-104 .scrollable-menu::-webkit-scrollbar-thumb, .version-104 #more-info #background::-webkit-scrollbar-thumb {background: #5458cb;}
+.version-105 .scrollable-menu::-webkit-scrollbar-thumb, .version-105 #more-info #background::-webkit-scrollbar-thumb {background: #548fcb;}
+.version-106 .scrollable-menu::-webkit-scrollbar-thumb, .version-106 #more-info #background::-webkit-scrollbar-thumb {background: #54c0cb;}
+.version-107 .scrollable-menu::-webkit-scrollbar-thumb, .version-107 #more-info #background::-webkit-scrollbar-thumb {background: #50bbb1;}
+.version-108 .scrollable-menu::-webkit-scrollbar-thumb, .version-108 #more-info #background::-webkit-scrollbar-thumb {background: #50bb7b;}
+.version-109 .scrollable-menu::-webkit-scrollbar-thumb, .version-109 #more-info #background::-webkit-scrollbar-thumb {background: #74bb50;}
+.version-110 .scrollable-menu::-webkit-scrollbar-thumb, .version-110 #more-info #background::-webkit-scrollbar-thumb {background: #b0bb50;}
+.version-111 .scrollable-menu::-webkit-scrollbar-thumb, .version-111 #more-info #background::-webkit-scrollbar-thumb {background: #c7a852;}
+.version-112 .scrollable-menu::-webkit-scrollbar-thumb, .version-112 #more-info #background::-webkit-scrollbar-thumb {background: #d88555;}
+.version-113 .scrollable-menu::-webkit-scrollbar-thumb, .version-113 #more-info #background::-webkit-scrollbar-thumb {background: #d86d55;}
+.version-114 .scrollable-menu::-webkit-scrollbar-thumb, .version-114 #more-info #background::-webkit-scrollbar-thumb {background: #d8af55;}
+
+#more-info #background::-webkit-scrollbar {width: 10px;}
+
+@media only screen and (min-width : 0px)  and (max-width: 479px) {
+	#more-info #background::-webkit-scrollbar {display: none;}
+    #more-info #background::-webkit-scrollbar-track {display: none;}
+    #more-info #background::-webkit-scrollbar-thumb {display: none;}
+}
+
+@media only screen and (min-width : 480px) and (max-width: 992px) {
+	#more-info #background::-webkit-scrollbar {display: none;}
+    #more-info #background::-webkit-scrollbar-track {display: none;}
+    #more-info #background::-webkit-scrollbar-thumb {display: none;}
+}
+
+
+
+body::-webkit-scrollbar
+{
+  width: 0px;  
+  height: 0px; 
+}
+
+body::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+body::-webkit-scrollbar-thumb
+{
+  background: rgba(0,0,0,0.2);
+}

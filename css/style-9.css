@@ -1,0 +1,4 @@
+/* ------------ Template specific styles ----------------*/
+
+.background-light {background:rgba(25, 30, 40, 0.82);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}
+.background-dark {background:rgba(16, 34, 55, 0.82);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}

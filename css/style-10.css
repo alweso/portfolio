@@ -1,0 +1,22 @@
+/* ------------ Template specific styles ----------------*/
+
+body {background: url('../img/bg_32.jpg')}
+.background-light {background:rgba(10, 54, 63, 0.82);transition: background 1.3s ease-in-out;transition-delay: 0.8s;}
+.background-dark {background: rgba(7, 33, 39, 0.87);transition: background 1.3s ease-in-out;transition-delay: 0.8s;}
+.body-bg {position: relative;}
+
+* { box-sizing: border-box; }
+
+#player {position: fixed;background: transparent;width: 100vw;height: 100vh;z-index: -99;}
+
+@media only screen and (orientation:portrait) and (max-width : 991px) {
+  .video-background {display: none;}
+  .background {display: none;}
+}
+
+@media only screen and (orientation:landscape) and (max-width : 1199px) {
+  .video-background {display: none;}
+  .background {display: none;}
+}
+
+/* ----------- Background overlay  --------------- */

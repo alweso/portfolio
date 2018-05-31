@@ -1,0 +1,5 @@
+/* ------------ Template specific styles ----------------*/
+
+body {background: url('../img/bg_26.jpg');}
+.background-light {background: rgba(13, 52, 63, 0.51);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}
+.background-dark {background: rgba(14, 32, 51, 0.88);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}

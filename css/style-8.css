@@ -1,0 +1,6 @@
+/* ------------ Template specific styles ----------------*/
+
+body {background: url('../img/bg.jpg');}
+#fishtank {width: 100vw;height: 100vh;position: fixed;z-index: 4;opacity: 0.9}
+.background-light {background:rgba(19, 58, 76, 0.78);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}
+.background-dark {background:rgba(16, 34, 55, 0.82);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}

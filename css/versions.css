@@ -1,0 +1,417 @@
+/* ==========================================================================================================================================================================================================================
+======================================================================================  Colors versions ======================================================================================================================
+=========================================================================================================================================================================================================== */
+
+
+/* version 1 */
+
+.version-1 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-1 #two .info-wrap {border:8px solid #3b94ae;background: #fff;}
+.version-1 #two .submit {border:1px solid #3b94ae;color: #fff;}
+.version-1 #contact-2 .btn-send {background: #3b94ae;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-1 #sidemenu li a i, .version-1 #sidemenu .close-button, .version-1 #sidemenu .close-button:hover i, .version-1 #sidemenu .close-button.active, .version-1 #services i, .version-1 #contact-1 i {color: #3b94ae;}
+.version-1 #sidemenu li a:hover {background: #efefef;}
+.version-1 #sidemenu li.active i, .version-1 #sidemenu .close-button.active i, .version-1 #two #two-button  {color: #fff;}
+.version-1 #sidemenu .close-button:hover  {background: #efefef;}
+.version-1 #picker .icon-wrap, .version-1 #sidemenu .close-button, .version-1 #sidemenu li.active, .version-1 #sidemenu li.active > a:focus, .version-1 #contact-2 .btn-send, .version-1 #picker .btn-primary, .version-1 #two .submit,  .version-1 #two-button, .version-1 #one-button, .version-1 #sidemenu li.active a {background: #3b94ae;}
+.version-1 #picker .icon-wrap:hover, .version-1 #contact-2 .btn-send:hover, .version-1 #two .submit:hover,  .version-1 #two-button:hover, .version-1 #one-button:hover {background: #6eb3c7;}
+
+/* version 2 */
+
+.version-2 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-2 #two .info-wrap {border:8px solid #578572;background: #fff;}
+.version-2 #two .submit {border:1px solid #578572;color: #fff;}
+.version-2 #contact-2 .btn-send {background: #578572;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-2 #sidemenu li a i, .version-2 #sidemenu .close-button, .version-2 #sidemenu .close-button:hover i, .version-2 #sidemenu .close-button.active, .version-2 #services i, .version-2 #contact-1 i {color: #578572;}
+.version-2 #sidemenu li a:hover {background: #efefef;}
+.version-2 #sidemenu li.active i, .version-2 #sidemenu .close-button.active i, .version-2 #two #two-button  {color: #fff;}
+.version-2 #sidemenu .close-button:hover  {background: #efefef;}
+.version-2 #picker .icon-wrap, .version-2 #sidemenu .close-button, .version-2 #sidemenu li.active, .version-2 #sidemenu li.active > a:focus, .version-2 #contact-2 .btn-send, .version-2 #picker .btn-primary,  .version-2 #two .submit,  .version-2 #two-button, .version-2 #one-button, .version-2 #sidemenu li.active a  {background: #578572;}
+.version-2 #picker .icon-wrap:hover, .version-2 #contact-2 .btn-send:hover, .version-2 #two .submit:hover,  .version-2 #two-button:hover, .version-2 #one-button:hover {background: #7ba292;}
+
+/* version 3 */
+
+
+.version-3 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-3 #two .info-wrap {border:8px solid #6dac4d;background: #fff;}
+.version-3 #two .submit {border:1px solid #6dac4d;color: #fff;}
+.version-3 #contact-2 .btn-send {background: #6dac4d;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-3 #sidemenu li a i, .version-3 #sidemenu .close-button, .version-3 #sidemenu .close-button:hover i, .version-3 #sidemenu .close-button.active, .version-3 #services i, .version-3 #contact-1 i {color: #6dac4d;}
+.version-3 #sidemenu li a:hover {background: #efefef;}
+.version-3 #sidemenu li.active i, .version-3 #sidemenu .close-button.active i, .version-3 #two #two-button  {color: #fff;}
+.version-3 #sidemenu .close-button:hover   {background: #efefef;}
+.version-3 #picker .icon-wrap, .version-3 #sidemenu .close-button, .version-3 #sidemenu li.active, .version-3 #sidemenu li.active > a:focus, .version-3 #contact-2 .btn-send, .version-3 #picker .btn-primary, .version-3 #two .submit,  .version-3 #two-button, .version-3 #one-button, .version-3 #sidemenu li.active a  {background: #6dac4d;}
+.version-3 #picker .icon-wrap:hover, .version-3 #contact-2 .btn-send:hover, .version-3 #two .submit:hover,  .version-3 #two-button:hover, .version-3 #one-button:hover {background: #81ae69;}
+
+/* version 4 */
+
+.version-4 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-4 #two .info-wrap {border:8px solid #36c388;background: #fff;}
+.version-4 #two .submit {border:1px solid #36c388;color: #fff;}
+.version-4 #contact-2 .btn-send {background: #36c388;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-4 #sidemenu li a i,.version-4 #sidemenu .close-button, .version-4 #sidemenu .close-button:hover i, .version-4 #sidemenu .close-button.active, .version-4 #services i, .version-4 #contact-1 i {color: #36c388;}
+.version-4 #sidemenu li a:hover {background: #efefef;}
+.version-4 #sidemenu li.active i, .version-4 #sidemenu .close-button.active i, .version-4 #two #two-button  {color: #fff;}
+.version-4 #sidemenu .close-button:hover  {background: #efefef;}
+.version-4 #picker .icon-wrap, .version-4 #sidemenu .close-button, .version-4 #sidemenu li.active, .version-4 #sidemenu li.active > a:focus, .version-4 #contact-2 .btn-send, .version-4 #picker .btn-primary,  .version-4 #two .submit,  .version-4 #two-button, .version-4 #one-button, .version-4 #sidemenu li.active a  {background: #36c388;}
+.version-4 #picker .icon-wrap:hover, .version-4 #contact-2 .btn-send:hover, .version-4 #two .submit:hover,  .version-4 #two-button:hover, .version-4 #one-button:hover {background: #68d8a9;}
+
+/* version 5 */
+
+.version-5 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-5 #two .info-wrap {border:8px solid #86a65b;background: #fff;}
+.version-5 #two .submit {border:1px solid #86a65b;color: #fff;}
+.version-5 #contact-2 .btn-send {background: #86a65b;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-5 #sidemenu li a i, .version-5 #sidemenu .close-button, .version-5 #sidemenu .close-button:hover i, .version-5 #sidemenu .close-button.active, .version-5 #services i, .version-5 #contact-1 i {color: #86a65b;}
+.version-5 #sidemenu li a:hover {background: #efefef;}
+.version-5 #sidemenu li.active i, .version-5 #sidemenu .close-button.active i, .version-5 #two #two-button  {color: #fff;}
+.version-5 #sidemenu .close-button:hover  {background: #efefef !important;}
+.version-5 #picker .icon-wrap, .version-5 #sidemenu .close-button, .version-5 #sidemenu li.active, .version-5 #sidemenu li.active > a:focus, .version-5 #contact-2 .btn-send, .version-5 #picker .btn-primary,  .version-5 #two .submit,  .version-5 #two-button, .version-5 #one-button, .version-5 #sidemenu li.active a   {background: #86a65b}
+.version-5 #picker .icon-wrap:hover, .version-5 #contact-2 .btn-send:hover, .version-5 #two .submit:hover,  .version-5 #two-button:hover, .version-5 #one-button:hover {background: #a2bf7b;}
+
+/* version 6 */
+
+.version-6 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-6 #two .info-wrap {border:8px solid #279e72;background: #fff;}
+.version-6 #two .submit {border:1px solid #279e72;color: #fff;}
+.version-6 #contact-2 .btn-send {background: #279e72;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-6 #sidemenu li a i, .version-6 #sidemenu .close-button, .version-6 #sidemenu .close-button:hover i, .version-6 #sidemenu .close-button.active, .version-6 #services i, .version-6 #contact-1 i {color: #279e72;}
+.version-6 #sidemenu li a:hover {background: #efefef;}
+.version-6 #sidemenu li.active i, .version-6 #sidemenu .close-button.active i, .version-6 #two #two-button  {color: #fff;}
+.version-6 #sidemenu .close-button:hover  {background: #efefef;}
+.version-6 #picker .icon-wrap, .version-6 #sidemenu .close-button, .version-6 #sidemenu li.active, .version-6 #sidemenu li.active > a:focus, .version-6 #contact-2 .btn-send, .version-6 #picker .btn-primary,.version-6 #two .submit,  .version-6 #two-button, .version-6 #one-button, .version-6 #sidemenu li.active a  {background: #279e72;}
+.version-6 #picker .icon-wrap:hover, .version-6 #contact-2 .btn-send:hover, .version-6 #two .submit:hover,  .version-6 #two-button:hover, .version-6 #one-button:hover {background: #69c5a3;}
+
+/* version 7 */
+
+.version-7 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-7 #two .info-wrap {border:8px solid #279e72;background: #fff;}
+.version-7 #two .submit {border:1px solid #279e72;color: #fff;}
+.version-7 #contact-2 .btn-send {background: #279e72;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-7 #sidemenu li a i, .version-7 #sidemenu .close-button, .version-7 #sidemenu .close-button:hover i, .version-7 #sidemenu .close-button.active, .version-7 #services i, .version-7 #contact-1 i {color: #279e72;}
+.version-7 #sidemenu li a:hover {background: #efefef;}
+.version-7 #sidemenu li.active i, .version-7 #sidemenu .close-button.active i, .version-7 #two #two-button  {color: #fff;}
+.version-7 #sidemenu .close-button:hover  {background: #efefef;}
+.version-7 #picker .icon-wrap, .version-7 #sidemenu .close-button, .version-7 #sidemenu li.active, .version-7 #sidemenu li.active > a:focus, .version-7 #contact-2 .btn-send, .version-7 #picker .btn-primary, .version-7 #two .submit,  .version-7 #two-button, .version-7 #one-button, .version-7 #sidemenu li.active a  {background: #279e72;}
+.version-7 #picker .icon-wrap:hover, .version-7 #contact-2 .btn-send:hover, .version-7 #two .submit:hover,  .version-7 #two-button:hover, .version-7 #one-button:hover {background: #65c7a3;}
+
+
+/* version 8 */
+
+.version-8 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-8 #two .info-wrap {border:8px solid #279e72;background: #fff;}
+.version-8 #two .submit {border:1px solid #279e72;color: #fff;}
+.version-8 #contact-2 .btn-send {background: #279e72;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-8 #sidemenu li a i, .version-8 #sidemenu .close-button, .version-8 #sidemenu .close-button:hover i, .version-8 #sidemenu .close-button.active, .version-8 #services i, .version-8 #contact-1 i {color: #279e72;}
+.version-8 #sidemenu li a:hover {background: #efefef;}
+.version-8 #sidemenu li.active i, .version-8 #sidemenu .close-button.active i, .version-8 #two #two-button  {color: #fff;}
+.version-8 #sidemenu .close-button:hover  {background: #efefef;}
+.version-8 #picker .icon-wrap, .version-8 #sidemenu .close-button, .version-8 #sidemenu li.active, .version-8 #sidemenu li.active > a:focus, .version-8 #contact-2 .btn-send, .version-8 #picker .btn-primary, .version-8 #two .submit,  .version-8 #two-button, .version-8 #one-button, .version-8 #sidemenu li.active a  {background: #279e72;}
+.version-8 #picker .icon-wrap:hover, .version-8 #contact-2 .btn-send:hover, .version-8 #two .submit:hover,  .version-8 #two-button:hover, .version-8 #one-button:hover {background: #5cbf9a;}
+
+/* version 9 */
+
+.version-9 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-9 #two .info-wrap {border:8px solid #279e72;background: #fff;}
+.version-9 #two .submit {border:1px solid #279e72;color: #fff;}
+.version-9 #contact-2 .btn-send {background: #279e72;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-9 #sidemenu li a i, .version-9 #sidemenu .close-button, .version-9 #sidemenu .close-button:hover i, .version-9 #sidemenu .close-button.active, .version-9 #services i, .version-9 #contact-1 i {color: #279e72;}
+.version-9 #sidemenu li a:hover {background: #efefef;}
+.version-9 #sidemenu li.active i, .version-9 #sidemenu .close-button.active i, .version-9 #two #two-button  {color: #fff;}
+.version-9 #sidemenu .close-button:hover {background: #efefef;}
+.version-9 #picker .icon-wrap, .version-9 #sidemenu .close-button, .version-9 #sidemenu li.active, .version-9 #sidemenu li.active > a:focus, .version-9 #contact-2 .btn-send, .version-9 #picker .btn-primary, .version-9 #two .submit,  .version-9 #two-button, .version-9 #one-button, .version-9 #sidemenu li.active a {background: #279e72;}
+.version-9 #picker .icon-wrap:hover, .version-9 #contact-2 .btn-send:hover, .version-9 #two .submit:hover,  .version-9 #two-button:hover, .version-9 #one-button:hover {background: #5cbf9a;}
+
+/* version 10 */
+
+.version-10 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-10 #two .info-wrap {border:8px solid #279e7d;background: #fff;}
+.version-10 #two .submit {border:1px solid #279e7d;color: #fff;}
+.version-10 #contact-2 .btn-send {background: #279e7d;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-10 #sidemenu li a i, .version-10 #sidemenu .close-button, .version-10 #sidemenu .close-button:hover i, .version-10 #sidemenu .close-button.active, .version-10 #services i, .version-10 #contact-1 i {color: #279e7d;}
+.version-10 #sidemenu li a:hover {background: #efefef;}
+.version-10 #sidemenu li.active i, .version-10 #sidemenu .close-button.active i, .version-10 #two #two-button  {color: #fff;}
+.version-10 #sidemenu .close-button:hover {background: #efefef;}
+.version-10 #picker .icon-wrap, .version-10 #sidemenu .close-button, .version-10 #sidemenu li.active, .version-10 #sidemenu li.active > a:focus, .version-10 #contact-2 .btn-send, .version-10 #picker .btn-primary, .version-10 #two .submit,  .version-10 #two-button, .version-10 #one-button, .version-10 #sidemenu li.active a  {background: #279e7d;}
+.version-10 #picker .icon-wrap:hover, .version-10 #contact-2 .btn-send:hover, .version-10 #two .submit:hover,  .version-10 #two-button:hover, .version-10 #one-button:hover {background: #5cbf9a;}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------- Color picker versions ---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* version 101 */
+
+.version-101 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-101 #two .info-wrap {border:8px solid #e060a7;background: #fff;}
+.version-101 #two .submit {border:1px solid #e060a7;color: #fff;}
+.version-101 #contact-2 .btn-send {background: #e060a7;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-101 #sidemenu li a i, .version-101 #sidemenu .close-button, .version-101 #sidemenu .close-button:hover i, .version-101 #sidemenu .close-button.active, .version-101 #services i, .version-101 #contact-1 i {color: #e060a7}
+.version-101 #sidemenu li a:hover {background: #efefef;}
+.version-101 #sidemenu li.active i, .version-101 #sidemenu .close-button.active i, .version-101 #two #two-button  {color: #fff;}
+.version-101 #sidemenu .close-button:hover {background: #efefef;}
+.version-101 #picker .icon-wrap, .version-101 #sidemenu .close-button, .version-101 #sidemenu li.active, .version-101 #sidemenu li.active > a:focus, .version-101 #contact-2 .btn-send, .version-101 #picker .btn-primary, .version-101 #two .submit,  .version-101 #two-button, .version-101 #one-button, .version-101 #sidemenu li.active a  {background: #e060a7;}
+.version-101 #picker .icon-wrap:hover, .version-101 #contact-2 .btn-send:hover, .version-101 #two .submit:hover,  .version-101 #two-button:hover, .version-101 #one-button:hover {background: #e087b8;}
+
+
+
+/* version 102 */
+
+.version-102 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-102 #two .info-wrap {border:8px solid #c454cb;background: #fff;}
+.version-102 #two .submit {border:1px solid #c454cb;color: #fff;}
+.version-102 #contact-2 .btn-send {background: #c454cb;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-102 #sidemenu li a i, .version-102 #sidemenu .close-button, .version-102 #sidemenu .close-button:hover i, .version-102 #sidemenu .close-button.active, .version-102 #services i, .version-102 #contact-1 i {color: #c454cb}
+.version-102 #sidemenu li a:hover {background: #efefef;}
+.version-102 #sidemenu li.active i, .version-102 #sidemenu .close-button.active i, .version-102 #two #two-button  {color: #fff;}
+.version-102 #sidemenu .close-button:hover  {background: #efefef;}
+.version-102 #picker .icon-wrap, .version-102 #sidemenu .close-button, .version-102 #sidemenu li.active, .version-102 #sidemenu li.active > a:focus, .version-102 #contact-2 .btn-send, .version-102 #picker .btn-primary, .version-102 #two .submit,  .version-102 #two-button, .version-102 #one-button, .version-102 #sidemenu li.active a  {background: #c454cb;}
+.version-102 #picker .icon-wrap:hover, .version-102 #contact-2 .btn-send:hover, .version-102 #two .submit:hover,  .version-102 #two-button:hover, .version-102 #one-button:hover {background: #d681dc;}
+
+/* version 103 */
+
+.version-103 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-103 #two .info-wrap {border:8px solid #9254cb;background: #fff;}
+.version-103 #two .submit {border:1px solid #9254cb;color: #fff;}
+.version-103 #contact-2 .btn-send {background: #9254cb;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-103 #sidemenu li a i, .version-103 #sidemenu .close-button, .version-103 #sidemenu .close-button:hover i, .version-103 #sidemenu .close-button.active, .version-103 #services i, .version-103 #contact-1 i {color: #9254cb}
+.version-103 #sidemenu li a:hover {background: #efefef;}
+.version-103 #sidemenu li.active i, .version-103 #sidemenu .close-button.active i, .version-103 #two #two-button  {color: #fff;}
+.version-103 #sidemenu .close-button:hover  {background: #efefef;}
+.version-103 #picker .icon-wrap, .version-103 #sidemenu .close-button, .version-103 #sidemenu li.active, .version-103 #sidemenu li.active > a:focus, .version-103 #contact-2 .btn-send, .version-103 #picker .btn-primary, .version-103 #two .submit,  .version-103 #two-button, .version-103 #one-button, .version-103 #sidemenu li.active a  {background: #9254cb;}
+.version-103 #picker .icon-wrap:hover, .version-103 #contact-2 .btn-send:hover, .version-103 #two .submit:hover,  .version-103 #two-button:hover, .version-103 #one-button:hover {background: #b488dc;}
+
+/* version 104 */
+
+.version-104 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-104 #two .info-wrap {border:8px solid #5458cb;background: #fff;}
+.version-104 #two .submit {border:1px solid #5458cb;color: #fff;}
+.version-104 #contact-2 .btn-send {background: #5458cb;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-104 #sidemenu li a i, .version-104 #sidemenu .close-button, .version-104 #sidemenu .close-button:hover i, .version-104 #sidemenu .close-button.active, .version-104 #services i, .version-104 #contact-1 i {color: #5458cb}
+.version-104 #sidemenu li a:hover {background: #efefef;}
+.version-104 #sidemenu li.active i, .version-104 #sidemenu .close-button.active i, .version-104 #two #two-button  {color: #fff;}
+.version-104 #sidemenu .close-button:hover  {background: #efefef;}
+.version-104 #picker .icon-wrap, .version-104 #sidemenu .close-button, .version-104 #sidemenu li.active, .version-104 #sidemenu li.active > a:focus, .version-104 #contact-2 .btn-send, .version-104 #picker .btn-primary,  .version-104 #two .submit,  .version-104 #two-button, .version-104 #one-button, .version-104 #sidemenu li.active a  {background: #5458cb;}
+.version-104 #picker .icon-wrap:hover, .version-104 #contact-2 .btn-send:hover, .version-104 #two .submit:hover,  .version-104 #two-button:hover, .version-104 #one-button:hover {background: #7f83e0;}
+
+/* version 105 */
+
+.version-105 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-105 #two .info-wrap {border:8px solid #548fcb;background: #fff;}
+.version-105 #two .submit {border:1px solid #548fcb;color: #fff;}
+.version-105 #contact-2 .btn-send {background: #548fcb;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-105 #sidemenu li a i, .version-105 #sidemenu .close-button, .version-105 #sidemenu .close-button:hover i, .version-105 #sidemenu .close-button.active, .version-105 #services i, .version-105 #contact-1 i {color: #548fcb}
+.version-105 #sidemenu li a:hover {background: #efefef;}
+.version-105 #sidemenu li.active i, .version-105 #sidemenu .close-button.active i, .version-105 #two #two-button  {color: #fff;}
+.version-105 #sidemenu .close-button:hover  {background: #efefef;}
+.version-105 #picker .icon-wrap, .version-105 #sidemenu .close-button, .version-105 #sidemenu li.active, .version-105 #sidemenu li.active > a:focus, .version-105 #contact-2 .btn-send, .version-105 #picker .btn-primary, .version-105 #two .submit,  .version-105 #two-button, .version-105 #one-button, .version-105 #sidemenu li.active a  {background: #548fcb;}
+.version-105 #picker .icon-wrap:hover, .version-105 #contact-2 .btn-send:hover, .version-105 #two .submit:hover,  .version-105 #two-button:hover, .version-105 #one-button:hover {background: #7ca7d3;}
+
+/* version 106 */
+
+.version-106 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-106 #two .info-wrap {border:8px solid #54c0cb;background: #fff;}
+.version-106 #two .submit {border:1px solid #54c0cb;color: #fff;}
+.version-106 #contact-2 .btn-send {background: #54c0cb;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-106 #sidemenu li a i, .version-106 #sidemenu .close-button, .version-106 #sidemenu .close-button:hover i, .version-106 #sidemenu .close-button.active, .version-106 #services i, .version-106 #contact-1 i {color: #54c0cb}
+.version-106 #sidemenu li a:hover {background: #efefef;}
+.version-106 #sidemenu li.active i, .version-106 #sidemenu .close-button.active i, .version-106 #two #two-button  {color: #fff;}
+.version-106 #sidemenu .close-button:hover   {background: #efefef;}
+.version-106 #picker .icon-wrap, .version-106 #sidemenu .close-button, .version-106 #sidemenu li.active, .version-106 #sidemenu li.active > a:focus, .version-106 #contact-2 .btn-send, .version-106 #picker .btn-primary, .version-106 #two .submit,  .version-106 #two-button, .version-106 #one-button, .version-106 #sidemenu li.active a  {background: #54c0cb;}
+.version-106 #picker .icon-wrap:hover, .version-106 #contact-2 .btn-send:hover, .version-106 #two .submit:hover,  .version-106 #two-button:hover, .version-106 #one-button:hover {background: #80d3dc;}
+
+/* version 107 */
+
+.version-107 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-107 #two .info-wrap {border:8px solid #50bbb1;background: #fff;}
+.version-107 #two .submit {border:1px solid #50bbb1;color: #fff;}
+.version-107 #contact-2 .btn-send {background: #50bbb1;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-107 #sidemenu li a i, .version-107 #sidemenu .close-button, .version-107 #sidemenu .close-button:hover i, .version-107 #sidemenu .close-button.active, .version-107 #services i, .version-107 #contact-1 i {color: #50bbb1}
+.version-107 #sidemenu li a:hover {background: #efefef;}
+.version-107 #sidemenu li.active i, .version-107 #sidemenu .close-button.active i, .version-107 #two #two-button  {color: #fff;}
+.version-107 #sidemenu .close-button:hover  {background: #efefef;}
+.version-107 #picker .icon-wrap, .version-107 #sidemenu .close-button, .version-107 #sidemenu li.active, .version-107 #sidemenu li.active > a:focus, .version-107 #contact-2 .btn-send, .version-107 #picker .btn-primary, .version-107 #two .submit,  .version-107 #two-button, .version-107 #one-button, .version-107 #sidemenu li.active a  {background: #50bbb1;}
+.version-107 #picker .icon-wrap:hover, .version-107 #contact-2 .btn-send:hover, .version-107 #two .submit:hover,  .version-107 #two-button:hover, .version-107 #one-button:hover {background: #79cfc7;}
+
+
+/* version 108 */
+
+.version-108 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-108 #two .info-wrap {border:8px solid #50bb7b;background: #fff;}
+.version-108 #two .submit {border:1px solid #50bb7b;color: #fff;}
+.version-108 #contact-2 .btn-send {background: #50bb7b;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-108 #sidemenu li a i, .version-108 #sidemenu .close-button, .version-108 #sidemenu .close-button:hover i, .version-108 #sidemenu .close-button.active, .version-108 #services i, .version-108 #contact-1 i {color: #50bb7b}
+.version-108 #sidemenu li a:hover {background: #efefef;}
+.version-108 #sidemenu li.active i, .version-108 #sidemenu .close-button.active i, .version-108 #two #two-button  {color: #fff;}
+.version-108 #sidemenu .close-button:hover  {background: #efefef;}
+.version-108 #picker .icon-wrap, .version-108 #sidemenu .close-button, .version-108 #sidemenu li.active, .version-108 #sidemenu li.active > a:focus, .version-108 #contact-2 .btn-send, .version-108 #picker .btn-primary, .version-108 #two .submit,  .version-108 #two-button, .version-108 #one-button, .version-108 #sidemenu li.active a  {background: #50bb7b;}
+.version-108 #picker .icon-wrap:hover, .version-108 #contact-2 .btn-send:hover, .version-108 #two .submit:hover,  .version-108 #two-button:hover, .version-108 #one-button:hover {background: #82cb9f;}
+
+/* version 109 */
+
+.version-109 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-109 #two .info-wrap {border:8px solid #74bb50;background: #fff;}
+.version-109 #two .submit {border:1px solid #74bb50;color: #fff;}
+.version-109 #contact-2 .btn-send {background: #74bb50;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-109 #sidemenu li a i, .version-109 #sidemenu .close-button, .version-109 #sidemenu .close-button:hover i, .version-109 #sidemenu .close-button.active, .version-109 #services i, .version-109 #contact-1 i {color: #74bb50}
+.version-109 #sidemenu li a:hover {background: #efefef;}
+.version-109 #sidemenu li.active i, .version-109 #sidemenu .close-button.active i, .version-109 #two #two-button  {color: #fff;}
+.version-109 #sidemenu .close-button:hover  {background: #efefef;}
+.version-109 #picker .icon-wrap, .version-109 #sidemenu .close-button, .version-109 #sidemenu li.active, .version-109 #sidemenu li.active > a:focus, .version-109 #contact-2 .btn-send, .version-109 #picker .btn-primary, .version-109 #two .submit,  .version-109 #two-button, .version-109 #one-button, .version-109 #sidemenu li.active a  {background: #74bb50;}
+.version-109 #picker .icon-wrap:hover, .version-109 #contact-2 .btn-send:hover, .version-109 #two .submit:hover,  .version-109 #two-button:hover, .version-109 #one-button:hover {background: #95cb7a;}
+
+/* version 110 */
+
+.version-110 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-110 #two .info-wrap {border:8px solid #b0bb50;background: #fff;}
+.version-110 #two .submit {border:1px solid #b0bb50;color: #fff;}
+.version-110 #contact-2 .btn-send {background: #b0bb50;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-110 #sidemenu li a i, .version-110 #sidemenu .close-button, .version-110 #sidemenu .close-button:hover i, .version-110 #sidemenu .close-button.active, .version-110 #services i, .version-110 #contact-1 i {color: #b0bb50}
+.version-110 #sidemenu li a:hover {background: #efefef;}
+.version-110 #sidemenu li.active i, .version-110 #sidemenu .close-button.active i, .version-110 #two #two-button  {color: #fff;}
+.version-110 #sidemenu .close-button:hover {background: #efefef;}
+.version-110 #picker .icon-wrap, .version-110 #sidemenu .close-button, .version-110 #sidemenu li.active, .version-110 #sidemenu li.active > a:focus, .version-110 #contact-2 .btn-send, .version-110 #picker .btn-primary, .version-110 #two .submit,  .version-110 #two-button, .version-110 #one-button, .version-110 #sidemenu li.active a  {background: #b0bb50;}
+.version-110 #picker .icon-wrap:hover, .version-110 #contact-2 .btn-send:hover, .version-110 #two .submit:hover,  .version-110 #two-button:hover, .version-110 #one-button:hover {background: #c4cd77;}
+
+/* version 111 */
+
+.version-111 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-111 #two .info-wrap {border:8px solid #c7a852;background: #fff;}
+.version-111 #two .submit {border:1px solid #c7a852;color: #fff;}
+.version-111 #contact-2 .btn-send {background: #c7a852;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-111 #sidemenu li a i, .version-111 #sidemenu .close-button, .version-111 #sidemenu .close-button:hover i, .version-111 #sidemenu .close-button.active, .version-111 #services i, .version-111 #contact-1 i {color: #c7a852}
+.version-111 #sidemenu li a:hover {background: #efefef;}
+.version-111 #sidemenu li.active i, .version-111 #sidemenu .close-button.active i, .version-111 #two #two-button  {color: #fff;}
+.version-111 #sidemenu .close-button:hover {background: #efefef;}
+.version-111 #picker .icon-wrap, .version-111 #sidemenu .close-button, .version-111 #sidemenu li.active, .version-111 #sidemenu li.active > a:focus, .version-111 #contact-2 .btn-send, .version-111 #picker .btn-primary, .version-111 #two .submit,  .version-111 #two-button, .version-111 #one-button, .version-111 #sidemenu li.active a  {background: #c7a852;}
+.version-111 #picker .icon-wrap:hover, .version-111 #contact-2 .btn-send:hover, .version-111 #two .submit:hover,  .version-111 #two-button:hover, .version-111 #one-button:hover {background: #d3bd80;}
+
+
+/* version 112 */
+
+.version-112 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-112 #two .info-wrap {border:8px solid #d88555;background: #fff;}
+.version-112 #two .submit {border:1px solid #d88555;color: #fff;}
+.version-112 #contact-2 .btn-send {background: #d88555;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-112 #sidemenu li a i, .version-112 #sidemenu .close-button, .version-112 #sidemenu .close-button:hover i, .version-112 #sidemenu .close-button.active, .version-112 #services i, .version-112 #contact-1 i {color: #d88555}
+.version-112 #sidemenu li a:hover {background: #efefef;}
+.version-112 #sidemenu li.active i, .version-112 #sidemenu .close-button.active i, .version-112 #two #two-button  {color: #fff;}
+.version-112 #sidemenu .close-button:hover  {background: #efefef;}
+.version-112 #picker .icon-wrap,.version-112 #sidemenu .close-button, .version-112 #sidemenu li.active, .version-112 #sidemenu li.active > a:focus, .version-112 #contact-2 .btn-send, .version-112 #picker .btn-primary, .version-112 #two .submit,  .version-112 #two-button, .version-112 #one-button, .version-112 #sidemenu li.active a  {background: #d88555;}
+.version-112 #picker .icon-wrap:hover, .version-112 #contact-2 .btn-send:hover, .version-112 #two .submit:hover,  .version-112 #two-button:hover, .version-112 #one-button:hover {background: #cf9b7d;}
+
+
+/* version 113 */
+
+.version-113 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-113 #two .info-wrap {border:8px solid #d86d55;background: #fff;}
+.version-113 #two .submit {border:1px solid #d86d55;color: #fff;}
+.version-113 #contact-2 .btn-send {background: #d86d55;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-113 #sidemenu li a i, .version-113 #sidemenu .close-button, .version-113 #sidemenu .close-button:hover i, .version-113 #sidemenu .close-button.active, .version-113 #services i, .version-113 #contact-1 i {color: #d86d55}
+.version-113 #sidemenu li a:hover {background: #efefef;}
+.version-113 #sidemenu li.active i, .version-113 #sidemenu .close-button.active i, .version-113 #two #two-button  {color: #fff;}
+.version-113 #sidemenu .close-button:hover {background: #efefef;}
+.version-113 #picker .icon-wrap,.version-113 #sidemenu .close-button, .version-113 #sidemenu li.active, .version-113 #sidemenu li.active > a:focus, .version-113 #contact-2 .btn-send, .version-113 #picker .btn-primary, .version-113 #two .submit,  .version-113 #two-button, .version-113 #one-button, .version-113 #sidemenu li.active a  {background: #d86d55;}
+.version-113 #picker .icon-wrap:hover, .version-113 #contact-2 .btn-send:hover, .version-113 #two .submit:hover,  .version-113 #two-button:hover, .version-113 #one-button:hover {background: #e08774;}
+
+
+/* version 114 */
+
+.version-114 #two .form-control {color: #686868;background-color: rgba(255, 255, 255, 0.1);border: 1px solid #cfcfcf;}
+.version-114 #two .info-wrap {border:8px solid #d8af55;background: #fff;}
+.version-114 #two .submit {border:1px solid #d8af55;color: #fff;}
+.version-114 #contact-2 .btn-send {background: #d8af55;border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;}
+.version-114 #sidemenu li a i, .version-114 #sidemenu .close-button, .version-114 #sidemenu .close-button:hover i, .version-114 #sidemenu .close-button.active, .version-114 #services i, .version-114 #contact-1 i {color: #d8af55}
+.version-114 #sidemenu li a:hover {background: #efefef;}
+.version-114 #sidemenu li.active i, .version-114 #sidemenu .close-button.active i, .version-114 #two #two-button  {color: #fff;}
+.version-114 #sidemenu .close-button:hover  {background: #efefef;}
+.version-114 #picker .icon-wrap,.version-114 #sidemenu .close-button, .version-114 #sidemenu li.active, .version-114 #sidemenu li.active > a:focus, .version-114 #contact-2 .btn-send, .version-114 #picker .btn-primary, .version-114 #two .submit,  .version-114 #two-button, .version-114 #one-button, .version-114 #sidemenu li.active a  {background: #d8af55;}
+.version-114 #picker .icon-wrap:hover, .version-114 #contact-2 .btn-send:hover, .version-114 #two .submit:hover,  .version-114 #two-button:hover, .version-114 #one-button:hover {background: #dcbd79;}
+
+
+@media only screen and (min-width : 0px)  and (max-width: 992px) {
+	.version-1 #sidemenu {background: #3b94ae;}
+	.version-2 #sidemenu {background: #578572;}
+	.version-3 #sidemenu {background: #6dac4d;}
+	.version-4 #sidemenu {background: #36c388;}
+	.version-5 #sidemenu {background: #86a65b;}
+	.version-6 #sidemenu {background: #279e72;}
+	.version-7 #sidemenu {background: #279e72;}
+	.version-8 #sidemenu {background: #279e72;}
+	.version-9 #sidemenu {background: #279e72;}
+	.version-10 #sidemenu {background: #279e7d;}
+
+	.version-101 #sidemenu {background: #e060a7;}
+	.version-102 #sidemenu {background: #c454cb;}
+	.version-103 #sidemenu {background: #9254cb;}
+	.version-104 #sidemenu {background: #5458cb;}
+	.version-105 #sidemenu {background: #548fcb;}
+	.version-106 #sidemenu {background: #54c0cb;}
+	.version-107 #sidemenu {background: #50bbb1;}
+	.version-108 #sidemenu {background: #50bb7b;}
+	.version-109 #sidemenu {background: #74bb50;}
+	.version-110 #sidemenu {background: #b0bb50;}
+	.version-111 #sidemenu {background: #c7a852;}
+	.version-112 #sidemenu {background: #d88555;}
+	.version-113 #sidemenu {background: #d86d55;}
+	.version-114 #sidemenu {background: #d8af55;}
+}
+
+/* ==========================================================================================================================================================================================================================
+==============================================================================================  Alignment ======================================================================================================================
+=========================================================================================================================================================================================================== */
+
+/* text center */
+
+.text-to-center #one .button-wrap {text-align: center;}
+.text-to-center .main-container-wrap .intro-text {text-align: center;}
+.text-to-center #one #timer {text-align: center;}
+.text-to-center .body-bg .logo-wrap {text-align: center;}
+.text-to-center .body-bg .logo {width: 60px;z-index: 1000;}
+.text-to-center .social {text-align: center;}
+.text-to-center .logo {margin-top: 70px}
+
+
+/* text left */
+
+.text-to-left #one .button-wrap {text-align: left;clear: both;}
+.text-to-left .main-container-wrap .intro-text {text-align: left;}
+.text-to-left #one #timer {text-align: left;float: left;}
+.text-to-left .body-bg .logo-wrap {}
+.text-to-left .body-bg .logo {margin-left: 30px}
+.text-to-left .social {text-align: left;}
+
+@media only screen and (min-width : 0px)  and (max-width: 479px) {
+	.text-to-left .logo {margin-top: 50px}
+    .text-to-center .logo {margin-top: 50px}
+    .text-to-center .timer-text-inside {padding: 0 10px}
+    .text-to-left .timer-text-inside {padding-right: 10px}
+}
+
+@media only screen and (min-width : 480px) and (max-width: 991px) {
+	.text-to-left .logo {margin-top: 30px}
+    .text-to-center .logo {margin-top: 70px}
+    .text-to-left .logo-wrap {height: 140px}
+    .text-to-center .logo-wrap {height: 200px}
+    .text-to-center .timer-text-inside {padding: 0 30px}
+    .text-to-left .timer-text-inside {padding-right: 100px}
+
+}
+
+@media only screen and (max-width : 767px) {
+    .text-to-left .social  {margin-left: 8.3%}
+    .text-to-left .logo-wrap {margin-left: 8.3%;margin-top: 8.3%}
+    .text-to-left .logo {margin-left: 30px;}
+    .text-to-center .timer-text-inside {padding: 0 10px}
+    .text-to-left .timer-text-inside {padding-right: 10px}
+}
+
+@media only screen and (min-width : 992px) {
+	.text-to-left .logo {margin-top: 30px}
+    .text-to-center .logo {margin-top: 70px}
+    .text-to-center .logo-wrap {height: 200px}
+    .text-to-center .timer-text-inside {padding: 0 130px}
+    .text-to-left .timer-text-inside {padding-right: 150px}
+}
+

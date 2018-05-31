@@ -1,0 +1,11 @@
+/* ------------ Template specific styles ----------------*/
+
+body {background: url('../img/bg_1.jpg');;}
+#wavybg-wrapper {margin:0;padding: 0;width: 100vw;height: 100vh;position: absolute;position: absolute;z-index: 1;}
+#wavybg-wrapper li {position: fixed;opacity: 0.5}
+#wavybg-wrapper li.layer-1 {width: 100vw;height: 100vh;position: absolute;}
+#wavybg-wrapper li.layer-1 img {width: 100%}
+
+.background-light {background: rgba(6, 22, 41, 0.68);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}
+.background-dark {background: rgba(9, 20, 33, 0.88);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}
+

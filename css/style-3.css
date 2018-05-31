@@ -1,0 +1,7 @@
+/* ------------ Template specific styles ----------------*/
+
+body {background: url('../img/bg_27.jpg');background-size: cover;}
+#particles-js {opacity: 0.5;z-index: 1000}
+.background-light {background: rgba(32, 46, 21, 0.63);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}
+.background-dark {background: rgba(22, 43, 55, 0.7);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}
+

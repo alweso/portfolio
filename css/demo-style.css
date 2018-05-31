@@ -1,0 +1,54 @@
+body {background: #fdfdfd;overflow-x: hidden;position: relative;}
+#preloader {height: 100% !important}
+#particles-js {width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 10;overflow: hidden;}
+.separator {width: 140px;height: 11px;background: url(../img/timer-pattern.png) repeat;margin-bottom: 20px;display: inline-block;margin:0 auto;}
+.intro-container {position: relative;height: 100vh}
+.intro-container .logo {text-align: center;padding: 170px 0 40px 0;}
+.intro-container .logo img {width: 80px}
+.intro-container .overlay {background:rgba(9, 71, 94, 0.58);height: 100vh;position: absolute;top: 0;left:0;width: 100%}
+.intro-container {background: url('../img/bg_27.jpg');background-size: cover;background-attachment: fixed;}
+.intro-container h1 {color: rgba(255,255,255,0.9);text-align: center;font-family: "Montserrat";font-size: 32px;letter-spacing: 3px;text-transform: uppercase;text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);}
+.intro-container p {color: rgba(255,255,255,0.9);text-align: center;font-family: "Open Sans";font-size: 14px;letter-spacing: 2px}
+
+.intro-container .button-wrap {text-align: center;margin-top: 40px;}
+.intro-container .button-wrap .btn {color: #fff;background: #3ab7a5;padding: 10px 20px;letter-spacing: 2px;border-radius: 2px;font-family: "Open Sans";font-size: 11px;text-transform: uppercase;-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.13);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.13);z-index: 100;position: relative;
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.13);transition: all 0.4s ease-in-out}
+
+.intro-container .button-wrap .btn:hover {background: #46c7b5;transition: all 0.4s ease-in-out}
+
+.between {background: #11ac96;padding: 20px 15px 10px 15px;-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.13);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.13);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.13);}
+.between p {text-align: center;font-family: "Open Sans";font-size: 12px;letter-spacing: 2px;text-transform: uppercase;color: #fff}
+.between p i {margin-right: 10px}
+.images {padding-top: 10vh}
+.images h2 {color: #737373;text-align: center;font-family: "Montserrat";font-size: 22px;letter-spacing: 2px;text-transform: uppercase;margin-bottom: 35px;text-shadow: 1px 1px 21px rgba(0, 0, 0, 0.05);}
+
+.images .col-md-6 {padding: 40px}
+.images h3 {font-family: "Open Sans";
+    text-transform: uppercase;
+    color: #545454;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;margin-bottom: 30px;}
+.images img {position: relative;transform: translate3d(0px,0px,0px)}
+.images img:hover {opacity: 0.7;transition: opacity 0.4s ease-in-out }
+
+body::-webkit-scrollbar
+{
+  width: 12px;  
+  height: 12px; 
+}
+
+body::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+body::-webkit-scrollbar-thumb
+{
+  background: #279e7d;
+}

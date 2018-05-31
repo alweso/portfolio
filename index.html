@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Particular</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- favion files beginning -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg">
+    <meta name="theme-color" content="#e8e8e8">
+    <!-- favicon files end --> 
+    <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,600,600italic,700,700italic,800italic,800%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/picker.css">
+    <link rel="stylesheet" type="text/css" href="css/versions.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style-7.css">
+    <link rel="stylesheet" type="text/css" href="css/scrollbars.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="version-7 text-to-center">
+    <div id="sidemenu">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="#about" class="menu-link nav-link active">
+          <i class="fa fa-info"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#services" class="menu-link nav-link">
+          <i class="fa fa-gear"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#portfolio" class="menu-link nav-link">
+          <i class="fa fa-image"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact-1" class="menu-link nav-link">
+          <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+        <li class="nav-item close-button">
+          <i class="fa fa-close"></i>
+        </li>
+      </ul>
+    </div>
+    <div id="preloader" class="preloader">
+      <div id="status" class="status">
+        <div class="cssload-loader-inner">
+          <div class="cssload-cssload-loader-line-wrap-wrap">
+            <div class="cssload-loader-line-wrap"></div>
+          </div>
+          <div class="cssload-cssload-loader-line-wrap-wrap">
+            <div class="cssload-loader-line-wrap"></div>
+          </div>
+          <div class="cssload-cssload-loader-line-wrap-wrap">
+            <div class="cssload-loader-line-wrap"></div>
+          </div>
+          <div class="cssload-cssload-loader-line-wrap-wrap">
+            <div class="cssload-loader-line-wrap"></div>
+          </div>
+          <div class="cssload-cssload-loader-line-wrap-wrap">
+            <div class="cssload-loader-line-wrap"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body-bg">
+      <div class="background background-light"></div>
+      <canvas id='c'></canvas>
+      <div class="background-overlay"></div>
+      <div id="particles-js"></div>
+      <div class="logo-wrap">
+        <img src="img/logo.png" class="logo" alt="" />
+      </div>
+      <div class="main-container-wrap container">
+        <div id="one" class="row section">
+          <div class="one-inner">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 intro-text-col">
+              <div class="intro-text">
+                <h1 class="main-header" data-in-effect="fadeInDownBig" data-out-effect="hinge" data-in-shuffle="true" data-out-shuffle="true">We're coming soon...</h1>
+                <div class="separator"></div>
+                <h2 data-in-effect="fadeInLeftBig" data-out-effect="hinge" data-in-shuffle="true" data-out-shuffle="true">All we need is just a little patience</h2>
+                <div id="timer" class="timer-text">
+                  <div class="timer-text-inside">
+                    <p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud <strong>exercitation</strong> ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                  </div>
+                </div>
+                <div class="button-wrap">
+                  <span id="more-button">More info</span>
+                  <span id="one-button" class="one-button">Notify me</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="two" class="row section back">
+          <div class="col-md-8 col-md-offset-2 col-sm-12 contact-form contact-col to-right">
+            <div class="info-wrap">
+              <div class="button-wrap">
+                <span id="two-button" class="glyphicon glyphicon-remove"></span>
+              </div>
+              <div class="newsletter-intro">
+                <h1 class="main-header" data-in-effect="fadeInLeftBig" data-out-effect="rollOut" data-in-shuffle="true" data-out-shuffle="true">Subscribe</h1>
+                <div class="separator-dark"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+                </p>
+              </div>
+              <form id="contact-form" method="post" action="contact.php">
+                <div class="messages"></div>
+                <div class="row">
+                  <div class="col-md-12 newsletter">
+                    <div class="input-group">
+                      <input type="text" id="form_message" name="message" class="form-control" placeholder="" required="required" data-error="Please,leave us a message.">
+                      <span class="input-group-btn">
+                      <button class="btn btn-secondary submit" type="submit">Submit</button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social">
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-google-plus"></i></a>
+      </div>
+    </div>
+    <div id="more-info">
+      <div id="background" data-spy="scroll" data-target="#sidemenu" data-offset="50">
+        <div class="container-fluid">
+          <div id="about" class="row block">
+            <div class="col-md-12">
+              <h1>A few words</h1>
+              <div class="separator-dark"></div>
+            </div>
+            <div class="col-md-5">
+              <img src="img/about.jpg" alt="" class="img img-responsive">
+            </div>
+            <div class="col-md-7">
+              <p><strong>Anything suspicious?</strong> Well... then should we go? Any uh... Cartel news these days? Seems like I'm always reading something or other in the paper. I don't want to talk about it. To you or anyone else. <strong>I'm done explaining myself.</strong> Gus is dead. We've got work to do.</p>
+              <p>Jesse Jackson? Do you even... ah, I see you have a telephone at least. You know that blinking thing I've been calling you on? I will break this, <strong>I will BREAK THIS.</strong> Damn druggie idiot. Is this what you've been doing the whole time I've been trying to reach you?</p>
+            </div>
+          </div>
+          <div id="services" class="row block">
+            <div class="col-md-12">
+              <h1>Services</h1>
+              <div class="separator-dark"></div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service">
+                <i class="fa fa-envelope fa-2x"></i>
+                <h3>Web design</h3>
+                <div class="description">
+                  <p>We do it and we do it well, just in case you're wondering.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service">
+                <i class="fa fa-envelope fa-2x"></i>
+                <h3>Web design</h3>
+                <div class="description">
+                  <p>We do it and we do it well, just in case you're wondering.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service">
+                <i class="fa fa-envelope fa-2x"></i>
+                <h3>Web design</h3>
+                <div class="description">
+                  <p>We do it and we do it well, just in case you're wondering.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service">
+                <i class="fa fa-envelope fa-2x"></i>
+                <h3>Web design</h3>
+                <div class="description">
+                  <p>We do it and we do it well, just in case you're wondering.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service">
+                <i class="fa fa-envelope fa-2x"></i>
+                <h3>Web design</h3>
+                <div class="description">
+                  <p>We do it and we do it well, just in case you're wondering.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service">
+                <i class="fa fa-envelope fa-2x"></i>
+                <h3>Web design</h3>
+                <div class="description">
+                  <p>We do it and we do it well, just in case you're wondering.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         <div id="portfolio" class="row block">
+            <div class="col-md-12">
+              <h1>Portfolio</h1>
+              <div class="separator-dark"></div>
+            </div>
+            <!-- first column beginning -->
+            <div class="col-md-4 col-sm-6">
+
+              <div class="grid-item">
+                <a href="img/bg_6.jpg" data-imagelightbox="lightbox_link" class="button view">
+                <img src="img/portfolio/6.jpg" alt="" class="img img-responsive portfolio-image" />
+                </a>
+              </div>
+
+              <div class="grid-item">
+                <a href="img/bg_8.jpg" data-imagelightbox="lightbox_link" class="button view">
+                <img src="img/portfolio/8.jpg" alt="" class="img img-responsive portfolio-image" />
+                </a>
+              </div>
+
+              <div class="grid-item">
+                <a href="img/bg_9.jpg" data-imagelightbox="lightbox_link" class="button view">
+                <img src="img/portfolio/9.jpg" alt="" class="img img-responsive portfolio-image" />
+                </a>
+              </div>
+
+            </div>
+            <!--first column end --> 
+
+            <!-- second column beginning -->
+            <div class="col-md-4 col-sm-6">
+              <div class="grid-item">
+                <a href="img/portfolio/11.jpg" data-imagelightbox="lightbox_link" class="button view">
+                <img src="img/portfolio/11.jpg" alt="" class="img img-responsive portfolio-image" />
+                </a>
+              </div>
+
+              <div class="grid-item">
+                <a href="img/portfolio/7.jpg" data-imagelightbox="lightbox_link" class="button view">
+                <img src="img/portfolio/7.jpg" alt="" class="img img-responsive portfolio-image" />
+                </a>
+              </div>
+              
+              <div class="grid-item">
+                <a href="img/portfolio/6.jpg" data-imagelightbox="lightbox_link" class="button view">
+                <img src="img/portfolio/6.jpg" alt="" class="img img-responsive portfolio-image" />
+                </a>
+              </div>
+            </div>
+            <!-- second column end -->
+
+            <!-- third column beginning -->
+            <div class="col-md-4 col-sm-6">
+              <div class="grid-item">
+                <a href="img/portfolio/12.jpg" data-imagelightbox="lightbox_link" class="button view">
+                <img src="img/portfolio/12.jpg" alt="" class="img img-responsive portfolio-image" />
+                </a>
+              </div>
+
+              <div class="grid-item">
+                <a href="img/portfolio/10.jpg" data-imagelightbox="lightbox_link" class="button view">
+                <img src="img/portfolio/10.jpg" alt="" class="img img-responsive portfolio-image" />
+                </a>
+              </div>
+
+              <div class="grid-item">
+                <a href="img/portfolio/8.jpg" data-imagelightbox="lightbox_link" class="button view">
+                <img src="img/portfolio/8.jpg" alt="" class="img img-responsive portfolio-image" />
+                </a>
+              </div>
+            </div>
+            <!-- third column end -->
+          </div>
+          <div id="contact-1" class="row block">
+            <div class="col-md-12">
+              <h1>Contact</h1>
+              <div class="separator-dark"></div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <i class="fa fa-location-arrow fa-2x"></i>
+              <div class="contact-details">
+              <!-- address -->
+                <p>3984 Very Nice Street</p>
+                <p>Beautyville</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <i class="fa fa-phone fa-2x"></i>
+              <div class="contact-details">
+              <!-- phone numbers -->
+                <p>Home: +432 389 930 209</p>
+                <p>Mobile: +432 345 123 543</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <i class="fa fa-envelope fa-2x"></i>
+              <div class="contact-details">
+              <!-- e-mail -->
+                <p>office@something.com</p>
+              </div>
+            </div>
+          </div>
+          <div id="contact-2" class="row block">
+            <div class="col-md-12">
+              <form id="contact-form-2" method="post" action="contact.php">
+                <div class="messages"></div>
+                <div class="controls">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea id="form_message-2" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <input type="submit" class="btn btn-success btn-send" value="Send message">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="lightbox-overlay">
+      <div class="lightbox-arrow left-arrow">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </div>
+      <div class="lightbox-arrow right-arrow">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </div>
+    </div>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/form-validator.min.js"></script>
+    <script src="js/subscribe-form-script.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.scrollTo.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+    <script src="js/lightbox.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/main.js"></script>
+    <script src="js/version-7.js"></script>
+  </body>
+</html>

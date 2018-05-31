@@ -1,0 +1,67 @@
+/* ------------ Template specific styles ----------------*/
+
+body {background: url('../img/bg_23.jpg');}
+
+.background-light {background:rgba(25, 33, 75, 0.67);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}
+.background-dark {background:rgba(11, 12, 35, 0.7);transition: all 1.3s ease-in-out;transition-delay: 0.8s;}
+
+/* KENBURNS STYLES 
+-------------------------------------------------------*/
+/*  kenburns_slideshow is the wrapper div. 
+Our list of Images scrolls inside of this frame
+To compute the minimum frame size needed:;
+image width * scale
+image height * scale
+
+if the image size is smaller than the frame size,
+gaps may appear. If image sizes are exactly the same,
+the images will fade over one another and not move. 
+*/
+#kenburns-slideshow {
+	position: absolute;
+	width:100vw;
+	height: 100%;
+	z-index: 0;
+	overflow: hidden;
+	top:0;
+}
+
+/*  The plugin wraps the images in div.kb-slide. This
+allows me to run separate animations simultaneously. */
+
+.kb-slide{
+	position: absolute;
+	z-index: 0;
+	opacity: 0;
+	width: 100%;
+}
+
+
+.kb-slide img{
+	position: relative;
+	-webkit-transform: translate3d(0,0,0)
+	-moz-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	height: 100%;
+
+}
+
+
+@-moz-keyframes spin {
+	0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(360deg); }
+}
+@-moz-keyframes spinoff {
+	0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(-360deg); }
+}
+@-webkit-keyframes spin {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
+@-webkit-keyframes spinoff {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(-360deg); }
+}
+

@@ -1,0 +1,321 @@
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[Table of contents]
+
+1. General 
+
+2. Welcome screen
+    2.1. Welcome screen / #one
+    2.2. Subscribe pop-up window / #two
+
+3. More info section
+    3.1. General
+    3.2. About / #about
+    3.3. Services / #services
+    3.4. Portfolio / #portfolio
+    3.5. Contact / #contact-1, #contact-2
+    3.6. Side menu / #sidemenu
+
+4. Media queries
+    4.1. General media queries
+    4.2. Timer media queries 
+
+[Typography]
+
+Headers:    "Montserrat", sans-serif;
+Subheaders: "Montserrat", sans-serif;
+Body copy:  'Open Sans', sans-serif;
+
+[Colors]
+
+For specific template colors, check css/versions.css
+
+-------------------------------------------------------------------*/
+
+
+/*=================================================================================================================================================================================
+=                                                                             1. General                          =
+==================================================================================================================================================================================*/
+
+.clearfix:before, .clearfix:after {content: " "; /* 1 */display: table; /* 2 */}
+.clearfix:after {clear: both;}
+html {position: relative;width: 100vw;overflow-x: hidden;}
+body {width: 100vw;position:relative;overflow-x:hidden;-webkit-overflow-scrolling: touch;-webkit-transform: translateZ(0);background-size: cover}
+html, body {min-height: 100vh;}
+canvas {width: 100%;height: 100%;position: relative;}
+p {font-family:"Open Sans";color: rgba(255,255,255,0.8);font-size: 14px;line-height:20px;letter-spacing:1px;margin-bottom: 20px;font-weight: 100;}
+button {padding: 10px 20px;font-size: 16px;font-family:"Open Sans";text-transform: uppercase;}
+.separator {width: 140px;height: 11px;background: url(../img/timer-pattern.png) repeat;margin-bottom: 20px;display: inline-block;}
+.section {margin: 0}
+#particles-js {width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 1;overflow: hidden;}
+.background {position: fixed;z-index: 3;width: 100%;min-height: 100%;top: 0;left: 0;bottom: 0;right: 0}
+video#bgvid {position: fixed;top: 50%;left: 50%;min-width: 100%;min-height: 100%;width: auto;height: auto;z-index: -100;-ms-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);transform: translateX(-50%) translateY(-50%);background-size: cover;}
+#c {position: absolute;top: 0;left: 0;z-index: 0;opacity: 0.4;width: 100vw;height: 100%;}
+#altBG {position: absolute;top: 0;left: 0;}
+.rays {position: absolute;top: 0;left: 0;opacity: 0.3;height: 150vh;margin-top: -50vh;z-index: 0}
+#scene {background: url('../img/ruins_all.png');width: 100vw;min-height: 100%;position: absolute;margin: 0;top: 0;left: 0;z-index: 1}
+#tubular-container {z-index: 0 !important}
+.mountains {position: absolute;bottom: 0;z-index: 0;width: 100%}
+#snowfall {width: 100%;height: 100vh;position: fixed;top: 0;left: 0;z-index: 4;}
+#one .button-wrap {z-index: 9999998;position: relative;}
+#two .submit,  #two-button, #one-button {transition: all 0.2s ease-in-out;}
+#one-button:hover, #two-button:hover {cursor: pointer;}
+.main-container-wrap {height: 100%;position: relative;}
+.main-container-wrap h1 {color: #fff;font-family: "Montserrat";text-transform: uppercase;font-weight: bold;letter-spacing: 3px}
+.background-overlay {height: 100%;width: 100%;position: absolute;z-index: 9999;display: none;background: rgba(8, 18, 26, 0.43);transition: background 0.6s ease-in-out;}
+.body-bg {min-height:100vh;}
+.body-bg .social {width: 100vw}
+.form-control {font-size: 13px;font-family: "Open Sans";color: #686868}
+#imagelightbox {position: absolute;z-index: 9999999;background: rgba(0,0,0,0.5);}
+#lightbox-overlay {position: absolute;width: 100%;height: 100%;background: rgba(0,0,0,0.9);top: 0;left: 0;z-index: 9999999;display: none;}
+#lightbox-overlay .left-arrow {left: 30px;}  
+#lightbox-overlay .right-arrow {right: 30px;}
+#lightbox-overlay .lightbox-arrow {position: absolute;top: 50vh;width: 35px;height: 35px;padding-top: 7px;text-align: center;}
+#lightbox-overlay .lightbox-arrow:hover {cursor: pointer;}
+#lightbox-overlay .lightbox-arrow .glyphicon {color: #fff;font-size: 20px}
+.site-slider {position: fixed;top: 0;left: 0;z-index: 0;width: 100vw;height: 100%;}
+.site-slider .slick-track, .site-slider .slick-list {height: 100%}
+.site-slider img {height: 100%;position: relative;}
+/*==================================================================================================================================================================================================================
+=                                                                               2. Welcome screen (with subscribe window)                         
+==========================================================================================================================================================================================================*/
+
+/* --------------------------------------------------------------------------------------- 2.1. Welcome screen ------------------------------------------------------------------------------------------ */
+
+#one {position: relative;width: 100%;z-index: 1000;}
+#one .separator {margin-bottom: 0}
+#one h2 {color: rgba(255, 255, 255, 0.91);font-family: "Montserrat";text-transform: uppercase;letter-spacing: 2px;}
+#one #timer li span {font-weight: 300;background: url('../img/timer-pattern.png') repeat;display: inline-block;padding: 7px 13px;text-align: center;}
+#one #timer li p {color: #fff;text-transform: uppercase;}
+#one #timer li.seperator {vertical-align: top;} 
+#one #timer {list-style: none;margin: 20px 0;padding: 0;display: block;margin:0 auto;}
+#one #timer li {display: inline-block; color: #fff;font-family: "Montserrat";font-weight: bold;margin-right: 15px}
+#one .timer-text.row .text-column {padding: 0}
+#one .button-wrap {width: 100%;}
+#one #one-button {font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;margin-top: 15px;color: #fff;display: inline-block;text-align: center;}
+
+
+
+#one #more-button:hover {background: rgba(255,255,255,0.2);cursor: pointer;-ms-transition: all 0.35s ease-in-out;-webkit-transition: all 0.35s ease-in-out;-o-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;}
+#one #more-button {background: rgba(255,255,255,0.1);border: 1px solid rgba(255, 255, 255, 0.3);font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;margin-top: 15px;color: #fff;display: inline-block;text-align: center;margin-right: 10px;-ms-transition: all 0.35s ease-in-out;-webkit-transition: all 0.35s ease-in-out;-o-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;}
+
+.body-bg .logo-wrap {z-index: 1000;width: 100vw;}
+.body-bg .logo {width: 60px;z-index: 1000;position: relative;}
+.body-bg .social {margin-top: 20px;z-index: 1000;padding: 30px}
+.body-bg .social>a {background:rgba(255, 255, 255, 0.08);border:1px solid rgba(255, 255, 255, 0.23);display: inline-block;padding: 8px;width: 35px;height: 35px;text-align: center;border-radius: 100%;vertical-align: middle;margin-right: 10px;-ms-transition: all 0.35s ease-in-out;-webkit-transition: all 0.35s ease-in-out;-o-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;}
+.body-bg .social>a>i {color: #fff}
+.body-bg .social>a:hover  {background:rgba(255, 255, 255, 0.28);border:1px solid rgba(255, 255, 255, 0.43);-ms-transition: all 0.35s ease-in-out;-webkit-transition: all 0.35s ease-in-out;-o-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;}
+
+
+/* --------------------------------------------------------------------------------- 2.2. Subscribe pop-up window --------------------------------------------------------------------------------------------- */
+
+#two {z-index: 999999;position: absolute;top: 0;left: 0;opacity: 0;display: none;}
+#two h1, #two p {color: gray}
+#two label {display: inline-block;max-width: 100%;margin-bottom: 5px;font-weight: bold;color: rgba(255, 255, 255, 0.79);letter-spacing: 2px;font-family: "Montserrat";text-transform: uppercase;font-size: 12px;}
+#two .form-control {display: block;width: 100%;height: 41px;padding: 6px 12px;font-size: 14px;line-height: 1.42857143;background-image: none;border: 1px solid #cfcfcf;border-radius: 1px;}
+#two .newsletter-intro {text-align: center;}
+#two .info-wrap {text-align: center;padding: 40px;position: relative;-webkit-box-shadow: 3px 3px 4px -2px rgba(111, 111, 111, 0.1);-moz-box-shadow: 3px 3px 4px -2px rgba(111, 111, 111, 0.1);box-shadow: 3px 3px 4px -2px rgba(111, 111, 111, 0.1);}
+
+#two .newsletter {text-align: center;}
+#two .input-group {margin:15px 50px 20px 50px;}
+#two .submit {opacity:1;border: none;padding: 10px 20px;color: #fff;text-transform: uppercase;font-family: "Montserrat";letter-spacing: 2px;border-bottom-right-radius: 0;border-top-right-radius: 0;}
+#two .button-wrap {position: absolute;width: 100%;top: -1px;right: 0}
+#two #two-button {font-size: 20px;display: inline-block;width: 40px;height: 40px;text-align: center;padding-top: 10px;position: absolute;right: 0}
+
+
+/*===============================================================================================================================================================================================================
+=                                                                                         3. More info                       
+===========================================================================================================================================================================================================*/
+
+/* -------------------------------------------------------------------------------------- 3.1. General -------------------------------------------------------------------------------------------------- */
+
+#more-info #background {-webkit-transform: translateZ(0);position: relative;overflow-y: scroll;-webkit-overflow-scrolling: touch;height: 100vh}
+.separator-dark {width: 140px;height: 11px;background: url(../img/timer-pattern-dark.png) repeat;margin-bottom: 30px;display: inline-block;}
+#more-info #background {background:rgba(0, 0, 0, 0);padding: 0 0 0;-webkit-transition: background 0.3s ease-in-out;-o-transition: background 0.3s ease-in-out;transition: background 0.7s ease-in-out;}
+#more-info .container-fluid {padding:0;margin: 0;background:#fdfdfd;position: relative;}
+#more-info .block {margin: 0;border-bottom: 1px solid #e9e9e9}
+#more-info h1 {font-size: 26px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 2px;margin-bottom: 18px}
+#more-info h2 {font-size: 18px;font-family: "Montserrat"}
+#more-info p {color: gray}
+
+
+/* --------------------------------------------------------------------------------------- 3.2. About --------------------------------------------------------------------------------------------------------- */
+
+#about img {margin-bottom: 25px;width: 100%}
+
+/* ------------------------------------------------------------------------------------- 3.3. Services ----------------------------------------------------------------------------------------------------- */
+
+#services {background: #f8f8f8;}
+#services i {font-size: 18px;vertical-align: top;}
+#services .service {padding: 20px 0}
+#services h3 {font-family: "Montserrat";font-size: 16px;text-transform: uppercase;display: inline-block;margin: 0 0 15px 0;padding-left: 15px;}
+#services .description  p {margin-bottom: 5px}
+
+
+/* ------------------------------------------------------------------------------------- 3.4. Portfolio -------------------------------------------------------------------------------------------------------- */
+
+#portfolio {position: relative;margin-top: 20px;}
+#portfolio .grid-item {overflow: hidden;margin-bottom: 30px;}
+#portfolio .grid-item img {width:100%;-webkit-box-shadow: 3px 3px 4px -2px rgba(111, 111, 111, 0.1);-moz-box-shadow: 3px 3px 4px -2px rgba(111, 111, 111, 0.1);box-shadow: 3px 3px 4px -2px rgba(111, 111, 111, 0.1);}
+#portfolio .grid-item .hover-description .icons {position: absolute;top: calc(50% - 21px);left: calc(50% - 114px);display: block;width: 228px;height: 42px;text-align: center;}
+#portfolio .grid-item:hover img.portfolio-image {z-index: 10000;opacity:0.7;-webkit-transform: scale(1.3);-moz-transform: scale(1.3);-ms-transform: scale(1.3);-o-transform: scale(1.3);transform: scale(1.3);-ms-transition: all 0.35s ease-in-out;-webkit-transition: all 0.35s ease-in-out;-o-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;}
+#portfolio .grid-item img.portfolio-image {-webkit-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;-ms-transition: all 0.35s ease-in-out;-o-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;}
+
+
+/* -------------------------------------------------------------------------------------- 3.5. Contact -------------------------------------------------------------------------------------------------------- */
+
+
+/* ----------- contact-details --------------- */
+
+#contact-1 {background: #f8f8f8;border-bottom: none !important;}
+#contact-1 i {font-size: 18px;vertical-align: top;}
+#contact-1 .contact-details {display: inline-block;padding-left: 20px}
+#contact-1 .contact-details p {margin-bottom: 5px}
+
+/* ----------- contact-form --------------- */
+
+#contact-2 {background: #f8f8f8;}
+#contact-2 .form-control {display: block;width: 100%;height: 34px;padding: 6px 12px;font-size: 14px;color: #555;background-color: #e4e4e4;background-image: none;border: none;border-radius: 0;-webkit-box-shadow: none;box-shadow: none;-webkit-transition: none;-o-transition: none;transition: none;}
+#contact-2 .btn-send {border-radius: 0px;font-family: "Montserrat";text-transform: uppercase;letter-spacing: 1px;font-size: 12px;padding: 10px 20px;margin: 20px 0;opacity: 1;border: none;}
+
+/* ------------------------------------------------------------------------------------ 3.6. Side menu ------------------------------------------------------------------------------------------------------- */
+
+#sidemenu li {list-style-type: none;margin-bottom: 5px;}
+#sidemenu li a {position: relative;text-align: center;width: 100%;height: 100%;display: block;transition: all 0.4s ease-in-out;padding: 10px}
+#sidemenu li a i {transition: all 0.2s ease-in-out;}
+#sidemenu li a:hover {transition: all 0.2s ease-in-out;}
+#sidemenu li.active{transition: all 0.2s ease-in-out;}
+#sidemenu li.active i {transition: all 0.2s ease-in-out;}
+#sidemenu .close-button {text-align: center;display: block;transition: all 0.4s ease-in-out;}
+#sidemenu .close-button i {transition: all 0.2s ease-in-out;color: #fff}
+#sidemenu .close-button:hover {transition: all 0.2s ease-in-out;}
+#sidemenu .close-button.active-link {transition: all 0.2s ease-in-out;}
+#sidemenu .close-button.active-link i {transition: all 0.2s ease-in-out;}
+#sidemenu .close-button:hover {transition: all 0.2s ease-in-out;cursor: pointer;}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------- 4. Media queries------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------- 4.1. General media queries ------------------------------------------------------------------------------------------------------- */
+
+
+@media only screen and (min-width : 0px)  and (max-width: 479px) {
+    #lightbox-overlay .lightbox-arrow {display: none;}
+    #tubular-container {display: none;}
+    .body-bg .social {position: absolute;bottom: 0;left: 0;}
+    .logo-wrap {height: 140px}
+    .main-container-wrap h1, #two h1 {font-size: 20px;}
+    #one {padding-bottom: 20vh}
+    #one h2 {font-size: 16px;margin-bottom: 27px}
+    #sidemenu {position: absolute;top:0;left: 0px;z-index: 999999;display: none;width: 100vw;padding: 10px 0 5px 0;width: 100vw;text-align: center;}
+    #sidemenu li {height: 40px;width: 40px;display: inline-block;margin-right: 5px}
+    #sidemenu li a {padding-top: 10px;background: #dedede;}
+     #sidemenu ul {text-align: left;margin-left: 40px}
+    #sidemenu li.close-button {position: absolute;margin-left: 3px;padding-top: 10px;text-align: center;top: 10px;left: 232px}
+    #sidemenu li.close-button i {}
+    #sidemenu .nav-item.active a  {background: rgba(255,255,255,0.3) !important;}
+    .block {padding: 40px 25px;}
+    .block#about {padding: 80px 25px 40px 25px}
+    #more-info {position: absolute;top: 0;left:0;height: 100%;width: 100%;z-index: 100000;display: none;}
+    #two .input-group {width: 100%;margin: 0 !important}
+    #two .input-group-btn {display: block;float: left;margin-top: 20px;width: 100%}
+}
+
+@media only screen and (min-width : 480px) and (max-width: 992px) {
+    .logo-wrap {height: 140px}
+    #lightbox-overlay .lightbox-arrow {display: block;}
+    #tubular-container {display: none;}
+    .body-bg .social {position: absolute;bottom: 0;left: 0;}
+    .main-container-wrap h1, #two h1 {font-size: 32px;}
+    #one {padding-bottom: 33vh}
+    #one h2 {font-size: 16px;margin-bottom: 32px}
+    #sidemenu {position: absolute;top:0;left: 0px;z-index: 999999;display: none;width: 100vw;padding: 10px 0 5px 30px;width: 100vw;text-align: center;}
+    #sidemenu li {height: 40px;width: 40px;display: inline-block;margin-right: 5px}
+    #sidemenu li a {padding-top: 10px;background: #dedede;}
+     #sidemenu ul {text-align: left;margin-left: 40px}
+    #sidemenu li.close-button {position: absolute;margin-left: 3px;padding-top: 10px;text-align: center;top: 10px;left: 266px}
+    #sidemenu li.close-button i {}
+    #sidemenu .nav-item.active a  {background: rgba(255,255,255,0.3) !important;}
+    #about {padding: 75px 60px 50px 60px}
+    #services {padding: 50px 60px;}
+    #portfolio {padding: 60px}
+    #contact-1 {padding: 50px 60px 20px 60px}
+    #contact-2 {padding: 20px 60px 50px 60px}
+    #more-info {position: absolute;top: 0;left:0;height: 100vh;width: 100%;z-index: 100000;display: none;}
+}
+
+@media only screen and (min-width : 992px) {
+    #lightbox-overlay .lightbox-arrow {display: block;}
+    #video {display: block;}
+    .body-bg .social {position: absolute;bottom: 0;left: 0;}
+    .logo-wrap {height: 200px}
+    .main-container-wrap h1, #two h1 {font-size: 40px;}
+    #one {padding-bottom: 22vh}
+    #one h2 {font-size: 18px;margin-bottom: 32px}
+    #sidemenu {position: absolute;top:240px;left: calc(30vw - 50px);width: 50px;z-index: 999999;padding: 0;display: none;}
+    #sidemenu li {height: 50px;width: 50px;-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.13);-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.13);box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.13);}
+    #sidemenu li a, #sidemenu .close-button {padding-top: 15px;}
+    #sidemenu li {background: #dedede;}
+    #about {padding: 50px 60px}
+    #services {padding: 50px 60px;}
+    #portfolio {padding: 60px}
+    #contact-1 {padding: 50px 60px 20px 60px}
+    #contact-2 {padding: 20px 60px 50px 60px}
+    #more-info {position: absolute;top: 0;left:100%;height: 100%;width: 70%;z-index: 100000;}
+}
+
+
+
+/* ---------------------------------------------------------------------------- 4.2. Timer media queries -------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width : 0px) and (max-width: 499px) {
+    #one #timer li.divider {display: block;}
+    #one #timer li span {font-size: 45px;line-height: 50px;padding: 10px 13px;width: 94px;}
+    #one #timer li p {font-size: 14px;margin-top: 5px}
+    #one #timer li.seperator {font-size: 80px;line-height: 70px;} 
+     #one #one-button {font-size: 11px;padding: 9px 12px;}
+    #one #more-button {font-size: 11px;padding: 9px 12px;}
+    #one #timer li:nth-of-type(2),  #one #timer li:nth-of-type(5) {margin-right: 0}
+}
+@media only screen and (min-width : 500px) and (max-width: 612px) {
+    #one #timer li.divider {display: none;}
+    #one #timer li span {font-size: 30px;line-height: 40px;padding: 10px 13px;width: 72px;}
+    #one #timer li p {font-size: 14px;margin-top: 5px}
+    #one #timer li.seperator {font-size: 80px;line-height: 70px;} 
+    #one #one-button {font-size: 12px;padding: 9px 18px;}
+    #one #more-button {font-size: 12px;padding: 9px 18px;}
+
+
+}
+@media only screen and (min-width : 613px) and (max-width: 734px) {
+    #one #timer li.divider {display: none;}
+    #one #timer li span {font-size: 50px;line-height: 60px;padding: 10px 13px;width: 92px;}
+    #one #timer li p {font-size: 14px;margin-top: 5px}
+    #one #timer li.seperator {font-size: 80px;line-height: 70px;} 
+    #one #one-button {font-size: 12px;padding: 9px 18px;}
+    #one #more-button {font-size: 12px;padding: 9px 18px;}
+}
+
+@media only screen and (min-width : 735px) and (max-width: 999px) {
+    #one #timer li.divider {display: none;}
+    #one #timer li span {font-size: 64px;line-height: 80px;padding: 10px 13px;width: 122px;}
+    #one #timer li p {font-size: 14px;margin-top: 5px}
+    #one #timer li.seperator {font-size: 80px;line-height: 70px;} 
+    #one #one-button {font-size: 12px;padding: 9px 18px;}
+    #one #more-button {font-size: 12px;padding: 9px 18px;}
+}
+
+@media only screen and (min-width : 1000px) {
+    #one #timer li.divider {display: none;}
+    #one #timer li span {font-size: 80px;line-height: 80px;padding: 10px 13px;width: 139px;}
+    #one #timer li p {font-size: 14px;margin-top: 5px}
+    #one #timer li.seperator {font-size: 80px;line-height: 70px;} 
+    #one #one-button {font-size: 12px;padding: 9px 18px;}
+    #one #more-button {font-size: 12px;padding: 9px 18px;}
+}
+
+
+
