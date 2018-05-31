@@ -2,7 +2,7 @@
 
 // configure
 $from = 'yourname@yourdomain.com';
-$sendTo = 'something@something.com';
+$sendTo = 'alweso@gmail.com';
 $subject = 'New message from Particular';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Contact form successfully submitted. Thank you, we will get back to you soon!';

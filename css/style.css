@@ -252,6 +252,8 @@ video#bgvid {position: fixed;top: 50%;left: 50%;min-width: 100%;min-height: 100%
     #video {display: block;}
     .body-bg .social {position: absolute;bottom: 0;left: 0;}
     .logo-wrap {height: 200px}
+    .logo {margin-top: 125px !important;}
+    .main-container-wrap {padding-top: 40px;}
     .main-container-wrap h1, #two h1 {font-size: 40px;}
     #one {padding-bottom: 22vh}
     #one h2 {font-size: 18px;margin-bottom: 32px}

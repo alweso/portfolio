@@ -2,12 +2,12 @@
         "use strict";
 	    $('#kenburns-slideshow').Kenburns({
 	    	images: [
-	    		"./img/ken_burns/img_52.jpg",
-        		"./img/ken_burns/img_75.jpg",
-                "./img/ken_burns/img_61.jpg",
-                "./img/ken_burns/img_23.jpg",
-                "./img/ken_burns/img_35.jpg",
-                "./img/ken_burns/img_76.jpg",           
+	    		"./img/ken_burns/bg.jpg",
+        		"./img/ken_burns/bg_15.jpg",
+                "./img/ken_burns/img_64.jpg",
+                "./img/ken_burns/img_68.jpg",
+                "./img/ken_burns/img_50.jpg",
+                "./img/ken_burns/img_52.jpg",           
                 ],
 	    	scale:1,
 	    	duration:8000,
